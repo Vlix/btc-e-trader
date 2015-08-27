@@ -14,4 +14,10 @@ test url meth sec = withSocketsDo $ do
             let request = request' { method = meth, secure = sec }
             manager <- newManager tlsManagerSettings
             res <- httpLbs request manager
-            print (responseHeaders res)
+            print res
+            putStrLn "`----------------------------"
+            print request
+            putStrLn "`----------------------------"
+
+
+-- cookie id = d289ac5ff3e5d059814c92b0acf4dd7da1440704160
