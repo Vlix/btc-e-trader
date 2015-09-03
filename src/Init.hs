@@ -46,4 +46,4 @@ initial = do
                     initial
         "public" -> public
         "trade" -> putStrLn "\"trade\" - not yet implemented"
-        _ -> putStrLn "  X__X"
+        _ -> putStrLn "\n  X__X\n"

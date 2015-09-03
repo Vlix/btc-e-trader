@@ -26,6 +26,8 @@ executable btc-e-trader
                        http-conduit,
                        network,
                        HTTP,
-                       http-types
+                       http-types,
+                       aeson >=0.9,
+                       time
   hs-source-dirs:      src
   default-language:    Haskell2010

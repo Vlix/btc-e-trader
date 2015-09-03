@@ -2,10 +2,12 @@
 
 module Test where
 
+import qualified Data.ByteString.Lazy as L
+import Data.Aeson
+
 import Network.HTTP
 import Network.HTTP.Conduit
 import Network.HTTP.Types
-import qualified Data.ByteString.Lazy as L
 import Network (withSocketsDo)
 
 test :: String -> Method -> Bool -> IO ()
