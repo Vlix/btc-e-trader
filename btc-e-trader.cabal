@@ -8,7 +8,7 @@ description:         First test to make a trading bot.
 license:             BSD3
 license-file:        LICENSE
 author:              Felix Paulusma
-maintainer:          nideco_@hotmail.com
+maintainer:          felix.paulusma@gmail.com
 -- copyright:           
 category:            Testing
 build-type:          Simple
